@@ -1,0 +1,28 @@
+{
+  "name": "homepage",
+  "version": "0.1.0",
+  "homepage": "https://zijianjoy.github.io/homepage",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "deploy": "gh-pages -d out",
+    "start": "npx serve@latest out",
+    "start:dynamic": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "next": "14.2.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
+    "typescript": "^5"
+  }
+}
