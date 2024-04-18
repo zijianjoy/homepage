@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/homepage/static/css/main.fe927caf.css",
+    "main.js": "/homepage/static/js/main.78445db5.js",
+    "static/js/787.4b24f717.chunk.js": "/homepage/static/js/787.4b24f717.chunk.js",
+    "static/media/zijianjoy.png": "/homepage/static/media/zijianjoy.b24195b3cbde7b6c2747.png",
+    "index.html": "/homepage/index.html",
+    "main.fe927caf.css.map": "/homepage/static/css/main.fe927caf.css.map",
+    "main.78445db5.js.map": "/homepage/static/js/main.78445db5.js.map",
+    "787.4b24f717.chunk.js.map": "/homepage/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe927caf.css",
+    "static/js/main.78445db5.js"
+  ]
+}
