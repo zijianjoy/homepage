@@ -56,7 +56,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "zijianjoy", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["pipelines", "dag-in-react", "gcp-blueprints"],
 };
 
 // Leadership SECTION
