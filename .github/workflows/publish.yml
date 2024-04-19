@@ -24,6 +24,8 @@ jobs:
 
       - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
         uses: ./.github/workflows/setup-node
+        with:
+          node-version: 20
 
       - name: Setup Pages ⚙️
         uses: actions/configure-pages@v4
