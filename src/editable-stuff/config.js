@@ -53,10 +53,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Recent Open Source Projects",
   gitHubUsername: "zijianjoy", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: ["pipelines", "dag-in-react", "gcp-blueprints"],
+  specificRepos: ["pipelines", "dag-in-react", "gcp-blueprints", "firebase-js-sdk"],
 };
 
 // Leadership SECTION

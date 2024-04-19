@@ -44,7 +44,11 @@ const Project = ({ heading, username, length, specfic }) => {
       }
       // setting projectArray
       // TODO: remove the duplication.
-      repoList = repoList.concat(recentRepoList)
+      for (let repo of recentRepoList) {
+        if (!specfic.includes(repo.name)) {
+          repoList.push(repo)
+        }
+      }
       setProjectsArray(repoList);
     } catch (error) {
       console.error(error.message);
