@@ -19,6 +19,10 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/jameszijian/",
     },
+    {
+      image: "fa-medium-m",
+      url: "https://medium.com/@mr_funkyfire",
+    },
   ],
 };
 
