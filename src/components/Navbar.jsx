@@ -45,7 +45,13 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="navbar-nav mr-auto">
           {
-            <NavLink className="nav-item lead" to={process.env.PUBLIC_URL + "/blog"}>
+            <NavLink 
+              className="nav-item lead" 
+              href={about.blog}
+              target="_blank"
+              rel="noreferrer noopener"
+              // to={process.env.PUBLIC_URL + "/blog"}
+            >
               Blog
             </NavLink>
           }

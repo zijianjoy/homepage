@@ -48,6 +48,7 @@ const about = {
   message:
     "My name is James Liu. I’m an Engineer.",
   resume: "https://docs.google.com/document/d/1KVyk35u9jh3UYRFxj9EdUhFQnmxa5Rb75klPlFwBags/edit?usp=sharing",
+  blog: "https://medium.com/@mr_funkyfire",
 };
 
 // PROJECTS SECTION
