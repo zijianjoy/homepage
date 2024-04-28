@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "James",
   middleName: "",
   lastName: "Liu",
-  message: " Supporting the developer community and the people they serve",
+  message: "Fostering the developer community and innovating with the world",
   icons: [
     {
       image: "fa-github",
