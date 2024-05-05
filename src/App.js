@@ -68,6 +68,7 @@ const Home = React.forwardRef((props, ref) => {
           heading={skills.heading}
           hardSkills={skills.hardSkills}
           softSkills={skills.softSkills}
+          tools={skills.tools}
         />
       )}
       
