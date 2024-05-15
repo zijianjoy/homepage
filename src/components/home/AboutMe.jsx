@@ -31,7 +31,15 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     }
   }, [link]);
 
+  const newMessage = "My name is James Liu. I’m not only an Engineer."
+  function updateMessages() {
+      var ps = document.getElementsById("messages");
+      for(var i = 0, len = ps.length; i < len; i++) {
+          ps[i].innerHTML = newMessage;
+      }
+  }
 
+  setTimeout(updateMessages, 1000);
 
   return (
     <Jumbotron id="aboutme" className="m-0">
@@ -49,7 +57,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
         </div>
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
-          <p className="lead text-center">{message}</p>
+          <p className="lead text-center" id="messages">{message}</p>
           {resume && (
             <p className="lead text-center">
               <a
