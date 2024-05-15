@@ -37,7 +37,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       elem.innerHTML = newMessage;
   }
 
-  setTimeout(updateMessages, 1000);
+  setTimeout(updateMessages, 1000 * 30); // 30 sec wait
 
   return (
     <Jumbotron id="aboutme" className="m-0">
