@@ -33,10 +33,8 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
 
   const newMessage = "My name is James Liu. I’m not only an Engineer."
   function updateMessages() {
-      var ps = document.getElementsById("messages");
-      for(var i = 0, len = ps.length; i < len; i++) {
-          ps[i].innerHTML = newMessage;
-      }
+      var elem = document.getElementById("messages");
+      elem.innerHTML = newMessage;
   }
 
   setTimeout(updateMessages, 1000);
