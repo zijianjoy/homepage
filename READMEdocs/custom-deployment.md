@@ -37,3 +37,23 @@
     ```https
       https://<your-username>.github.io
     ```
+
+
+
+
+# Technical Skills
+
+Kubernetes
+Distributed System
+MLOps
+
+open source
+kpt
+
+
+gcp-blueprints
+
+
+# Programming Languages
+
+Golang
